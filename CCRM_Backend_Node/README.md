@@ -1,2 +1,2 @@
-# scenaiNode
+# CCRMDashboard
 nodejs, mongodb (for backend)

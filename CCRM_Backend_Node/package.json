@@ -1,5 +1,5 @@
 {
-  "name": "scenai_server",
+  "name": "CCRM_Dashboard",
   "version": "1.0.0",
   "scripts": {
     "devStart":"nodemon ./bin/www",
