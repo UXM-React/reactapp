@@ -46,12 +46,7 @@ var CCRM_UXM_Associates = new mongoose.Schema({
 
 var CCRM_UXM_Associates=mongoose.model('CCRM_UXM_Associates',CCRM_UXM_Associates);
 
-/*var Empschema=new CCRM_UXM_Associates({empId:'549287',empFirstName:'NaveenKumar',empLastName:'Vijayalingam',empTechmEmail:'NV00549287@TechMahindra.com',empBand:'U3',empRole:'Sr. Software Engineer',empContactNumber:'9940675290',
-empSkillSets:'HTML,CSS,JAVASCRIPT,REACT JS,ANGULAR,NODE JS',empPersonalEmail:'',empPersonalContactNumber:'',lastupdatedDate:new Date(),createdDate:new Date()});
-Empschema.save();
-var Empschema=new CCRM_UXM_Associates({empId:'496389',empFirstName:'Jeeva',empLastName:'Rajakanna',empTechmEmail:'JR00496389@TechMahindra.com',empBand:'U4',empRole:'Project Lead',empContactNumber:'9884246030',
-empSkillSets:'HTML,CSS,JAVASCRIPT,REACT JS,ANGULAR,NODE JS',empPersonalEmail:'',empPersonalContactNumber:'',lastupdatedDate:new Date(),createdDate:new Date()});
-Empschema.save();
-console.log(Empschema);*/
+/*var Empschema=new CCRM_UXM_Associates({empId:'549287',empFirstName:'NaveenKumar',empLastName:'Vijayalingam',empTechmEmail:'NV00549287@TechMahindra.com',empBand:'U3',empRole:'Sr. Software Engineer',empContactNumber:'9940675290',empSkillSets:'HTML,CSS,JAVASCRIPT,REACT JS,ANGULAR,NODE JS',empPersonalEmail:'',empPersonalContactNumber:'',lastupdatedDate:new Date(),createdDate:new Date()});
+Empschema.save();*/
 
 module.exports = CCRM_UXM_Associates;

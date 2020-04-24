@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const authJwtVerify=require("../auth");
+
 
 // Require the controllers WHICH WE DID NOT CREATE YET!!
 const expExpDet_controller= require('../controller/empDetails.controller');
@@ -19,5 +21,6 @@ router.get('/delete/:id', expExpDet_controller.empDetails_delete);
 
 //final retriving data by particular ID and update.
 router.put('/getdataUpdateEmpDetails/:id', expExpDet_controller.expExpDet_getbyIdAndUpdate);
+
 
 module.exports = router;

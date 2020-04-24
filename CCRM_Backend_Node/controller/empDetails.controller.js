@@ -36,6 +36,7 @@ exports.empDetails_delete = function (req, res) {
 
 
 exports.expExpDet_get = function (req, res) {
+    
     expExpDet.find({}).exec(function(err, result) {
         console.log(result+'test');
         res.send(result);

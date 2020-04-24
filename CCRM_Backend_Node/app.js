@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override')
 
-
+const loginCheck = require('./routes/loginCheck.routes'); // Imports routes for the products
 const expExpDet = require('./routes/empDetails.routes'); // Imports routes for the products
 
 //import expDataSet from './models/expDataSet.model';
@@ -46,7 +46,7 @@ app.use(errorHandler)
 app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({limit: '50mb',extended: true, parameterLimit: 1000000}));
 app.use('/empDetails', expExpDet);
-
+app.use('/loginCheck', loginCheck);
 app.get('*', function(req, res){
   res.send('Request Not Valid', 404);
 });
@@ -68,4 +68,6 @@ function errorHandler (err, req, res, next) {
   res.status(500)
   res.render('error', { error: err })
 }
+
+
 module.exports = app;
