@@ -1,0 +1,8 @@
+Install MongoDB and Node
+After that Check Mongodb has Started or not 
+To start MongoDb run the below command
+C:\Program Files\MongoDB\Server\4.2\bin> mongod
+
+Step 1 : Download File / Clone the File from GIT
+Step 2 : Go inside the folder and run the command "npm install"
+Step 3 : Once Install done run command "npm start"
