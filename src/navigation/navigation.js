@@ -11,6 +11,7 @@ import Tables from '../tables/tables';
 import MultiUpload from '../Components/MultiUpload';
 import FileUpload from '../Components/FileUpload';
 import DataTable from '../Components/DataTable';
+import Footer from '../footer/footer';
 
 
 export default class leftnav extends Component {
@@ -168,7 +169,8 @@ export default class leftnav extends Component {
             </nav>
           </div>
           <div className="rightsidenav">
-            <Switch>
+            <div className="content">
+              <Switch>
               <Route exact path="/">
                 <Home />
               </Route>
@@ -218,6 +220,9 @@ export default class leftnav extends Component {
 			  
             </Switch>
           </div>
+          <Footer/>
+        </div>
+        
         </div>
       </Router>
 
