@@ -1,0 +1,24 @@
+body{background-color: lightgray !important}
+.student form label{width:200px}
+.student form label,.student form input{margin:10px;font-size: 18px;}
+form {
+    width: 100%;
+  }
+  .student{
+    width: 50%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #fff
+  }
+  .location select {
+    width: 210px;
+    margin: auto 10px;
+}
+input,select{padding: 0 0 0 10px}
+  @media (min-width:320px) and (max-width:767px){
+    .student{width: auto}
+    .student form label, .student form input{margin:10px auto}
+  }

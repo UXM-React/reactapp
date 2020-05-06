@@ -1,0 +1,5 @@
+test
+
+//npm command to install mdbreact table
+
+    npm install mdbreact

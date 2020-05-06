@@ -1,0 +1,9 @@
+body{background-color: white !important} 
+  .container{
+    padding: 20px;
+  }
+  @media (min-width:320px) and (max-width:767px){
+    .tables{
+      width: auto;
+    }
+  }
