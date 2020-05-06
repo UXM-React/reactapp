@@ -20,5 +20,4 @@ const tables = () => {
         </html>
     );
 }
-
 export default tables;
